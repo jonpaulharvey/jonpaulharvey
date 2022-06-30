@@ -56,8 +56,8 @@
             //labelContainer.childNodes[i].innerHTML = classPrediction;
             
             
-            if(prediction[i].probability.toFixed(2) == 1.0){
-                alert('I see a '+prediction[i].className);
+            if(prediction[i].probability.toFixed(2) == 1.0 && prediction[i].className == 'Portrait'){
+                alert('I see the picture!!');
             }
         }
     }
