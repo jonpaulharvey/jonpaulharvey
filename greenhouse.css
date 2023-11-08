@@ -3,7 +3,9 @@ h1,h2#board_title{
 }
 
 section.level-0{
-    
+    align-items: stretch;
+    flex-flow: row;
+    display: flex;
 }
 
 .opening{background-color: rgb(255, 255, 255);
@@ -18,4 +20,7 @@ section.level-0{
     bottom: 0px;
     grid-template-rows: 55% 25% 20%;
     grid-template-columns: 1fr;
-    display: grid;}
+    display: grid;
+    margin-right:20px
+}
+#footer{display:none}
